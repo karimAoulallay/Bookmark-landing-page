@@ -14,7 +14,7 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://karimaoulallay.github.io/Bookmark-landing-page/)
+- Live Site URL: [https://karimaoulallay.github.io/Bookmark-landing-page/]
 
 ## My process
 
