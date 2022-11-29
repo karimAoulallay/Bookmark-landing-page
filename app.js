@@ -10,6 +10,8 @@ const logo = document.getElementById("logo");
 openNav.addEventListener("click", () => {
   // opening navbar scrolling
   nav.style.cssText = "transform: translateX(0); transition: transform .5s";
+  // prevent the page from scrolling at nav menu
+  document.body.classList = "overflow-y-hidden";
   // hide page navbar
   nav.addEventListener("transitionend", (_) => {
     openNav.style.visibility = "hidden";
@@ -22,6 +24,8 @@ openNav.addEventListener("click", () => {
 closeNav.onclick = (_) => {
   // closing navbar scrolling
   nav.style.cssText = "transform: translateX(100%); transition: transform .5s";
+  // prevent the page from scrolling at nav menu
+  document.body.classList = "overflow-y-visible";
   // reshow page navbar
   nav.addEventListener("transitionend", (_) => {
     openNav.style.visibility = "visible";
